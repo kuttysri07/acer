@@ -1,0 +1,60 @@
+.herotext{
+    font-family: "Outfit", sans-serif;
+   
+    font-style: normal;
+    margin-top: 10%;
+    margin-left: 3%;
+    font-size: 5em ;
+    
+}
+
+
+.explore{
+    display: flex;
+    width: 20%;
+    gap: 20%;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 3%;
+}
+.explore p{
+ color:white;
+ background-color:  black;
+ font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+
+.dots{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+    
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.dot.orange{
+    background-color: orangered;
+}
+
+.playstatus{
+    position: absolute;
+    background-color: black;
+    width: fit-content;
+    border-radius:50%;
+    top: 82%;
+    right: 10%;
+}
